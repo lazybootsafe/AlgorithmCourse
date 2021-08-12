@@ -1,2 +1,3 @@
-# AlgorithmResult
-算法暑假作业提交处
+# AlgorithmCourse
+
+一份算法教程和leetcode脑瘫解法
