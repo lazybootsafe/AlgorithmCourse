@@ -989,9 +989,256 @@ Lambda 表达式本质上与函数声明非常类似。Lambda 表达式具体形
 `[this]() { this->someFunc(); }();`  
 
 ## 7 递归
+递归指的是在函数的定义中使用函数自身的方法。  
+
+语法格式如下：
+
+```cpp
+void recursion()
+{
+   statements;
+   ... ... ...
+   recursion(); /* 函数调用自身 */
+   ... ... ...
+}
+ 
+int main()
+{
+   recursion();
+}
+```
+
+流程图：  
+![](images/2021-08-16-14-53-33.png)
+
+例子  
+
+```cpp
+#include<iostream>
+using namespace std;
+int a[100];
+ 
+void print(int i){
+	cout<<a[i]<<endl;
+	if(i>0)
+		print(i-1);	
+	//cout<<a[i]<<endl;
+}
+
+int main(){
+	int n;
+	cin>>n;
+	for(int i=0;i<n;i++){
+		cin>>a[i];
+	}
+	print(n-1);
+	return 0;
+} 
+
+```
+
+```cpp
+#include<iostream>
+using namespace std;
+
+long long fac(int n){
+	if(n==0||n==1)
+		return 1;
+	else
+		return n*fac(n-1);
+}
+
+int main(){
+	int n;
+	cin>>n;
+	cout<<fac(n);
+	return 0;
+} 
+
+```
+
+```cpp
+//斐波那契数列
+#include<iostream>
+using namespace std;
+
+long long fib(int n){  
+	if(n<1)   
+		return -1;
+	if(n==1||n==2)   
+		return 1;
+	return fib(n-1)+fib(n-2);
+}
+
+int main(){
+	int n;
+	long long s;
+	cin>>n;
+	s=fib(n);
+	cout<<s<<endl;
+	return 0;
+} 
+
+```
+
 
 ## 8 结构体
+就是将多个数据项组合在一起 作为一个数据元素.
+
+```cpp
+#include<iostream>
+#include<string>
+using namespace std;
+
+typedef struct student{//学生信息结构体 
+	string name;
+	string number;
+	string sex;
+	int age; 
+	float score;
+}stu;
+
+int main(){
+	stu a;//student a;
+	cout<<"请输入学生的姓名、学号、性别、年龄、分数："<<endl;
+	cin>>a.name>>a.number>>a.sex>>a.age>>a.score;
+	cout<<"name: "<<a.name<<endl;
+	cout<<"number: "<<a.number<<endl;
+	cout<<"sex: "<<a.sex<<endl;
+	cout<<"age: "<<a.age<<endl;
+	cout<<"score: "<<a.score<<endl;
+	return 0;
+} 
+```
+
+
+
+
+
+
 
 ## 9 数组
 
+C++ 支持数组数据结构，它可以存储一个固定大小的相同类型元素的顺序集合。数组是用来存储一系列数据，但它往往被认为是一系列相同类型的变量。  
+
+数组的声明并不是声明一个个单独的变量，比如 `number0、number1、...、number99`，而是声明一个数组变量，比如 `numbers`，然后使用 `numbers[0]、numbers[1]、...、numbers[99]` 来代表一个个单独的变量。数组中的特定元素可以通过索引访问。  
+
+所有的数组都是由连续的内存位置组成。最低的地址对应第一个元素，最高的地址对应最后一个元素。  
+
+### 声明数组
+在 C++ 中要声明一个数组，需要指定元素的类型和元素的数量，如下所示：  
+
+`type arrayName [ arraySize ];`   
+这叫做一维数组。arraySize 必须是一个大于零的整数常量，type 可以是任意有效的 C++ 数据类型。例如，要声明一个类型为 double 的包含 10 个元素的数组 balance，声明语句如下：  
+
+`double balance[10];`  
+现在 balance 是一个可用的数组，可以容纳 10 个类型为 double 的数字。  
+
+### 初始化数组
+在 C++ 中，您可以逐个初始化数组，也可以使用一个初始化语句，如下所示：  
+
+`double balance[5] = {1000.0, 2.0, 3.4, 7.0, 50.0};`  
+大括号 { } 之间的值的数目不能大于我们在数组声明时在方括号 [ ] 中指定的元素数目。  
+
+如果您省略掉了数组的大小，数组的大小则为初始化时元素的个数。因此，如果：  
+
+`double balance[] = {1000.0, 2.0, 3.4, 7.0, 50.0};`  
+您将创建一个数组，它与前一个实例中所创建的数组是完全相同的。下面是一个为数组中某个元素赋值的实例：  
+
+`balance[4] = 50.0;`  
+上述的语句把数组中第五个元素的值赋为 50.0。所有的数组都是以 0 作为它们第一个元素的索引，也被称为基索引，数组的最后一个索引是数组的总大小减去 1。以下是上面所讨论的数组的的图形表示：   
+
+
+![](images/2021-08-16-15-07-59.png)  
+
+
+### 访问数组元素
+数组元素可以通过数组名称加索引进行访问。元素的索引是放在方括号内，跟在数组名称的后边。例如：  
+
+`double salary = balance[9];`  
+上面的语句将把数组中第 10 个元素的值赋给 salary 变量。下面的实例使用了上述的三个概念，即，声明数组、数组赋值、访问数组：
+
+```cpp
+#include <iostream>
+using namespace std;
+ 
+#include <iomanip>
+using std::setw;
+ 
+int main ()
+{
+   int n[ 10 ]; // n 是一个包含 10 个整数的数组
+ 
+   // 初始化数组元素          
+   for ( int i = 0; i < 10; i++ )
+   {
+      n[ i ] = i + 100; // 设置元素 i 为 i + 100
+   }
+   cout << "Element" << setw( 13 ) << "Value" << endl;
+ 
+   // 输出数组中每个元素的值                     
+   for ( int j = 0; j < 10; j++ )
+   {
+      cout << setw( 7 )<< j << setw( 13 ) << n[ j ] << endl;
+   }
+ 
+   return 0;
+}
+```
+
+上面的程序使用了 `setw() `函数 来格式化输出。当上面的代码被编译和执行时，它会产生下列结果：  
+
+```
+Element        Value
+      0          100
+      1          101
+      2          102
+      3          103
+      4          104
+      5          105
+      6          106
+      7          107
+      8          108
+      9          109
+      
+```
+
 ## 10 字符串
+
+C++ 提供了以下两种类型的字符串表示形式：  
+
+- C 风格字符串
+- C++ 引入的 string 类类型
+### C 风格字符串
+C 风格的字符串起源于 C 语言，并在 C++ 中继续得到支持。字符串实际上是使用 null 字符 \0 终止的一维字符数组。因此，一个以 null 结尾的字符串，包含了组成字符串的字符。  
+
+下面的声明和初始化创建了一个 RUNOOB 字符串。由于在数组的末尾存储了空字符，所以字符数组的大小比单词 RUNOOB 的字符数多一个。  
+
+`char site[7] = {'R', 'U', 'N', 'O', 'O', 'B', '\0'};`  
+依据数组初始化规则，您可以把上面的语句写成以下语句：  
+
+`char site[] = "RUNOOB";`  
+以下是 C/C++ 中定义的字符串的内存表示：  
+![](images/2021-08-16-15-13-08.png)  
+
+
+C++ 中有大量的函数用来操作以 null 结尾的字符串:  
+
+|序号|	函数 & 目的|
+|----|----|
+1|	strcpy(s1, s2);
+复制字符串 s2 到字符串 s1。
+2|	strcat(s1, s2);
+连接字符串 s2 到字符串 s1 的末尾。连接字符串也可以用 + 号，例如:
+string str1 = "runoob";
+string str2 = "google";
+string str = str1 + str2;
+3|	strlen(s1);
+返回字符串 s1 的长度。
+4|	strcmp(s1, s2);
+如果 s1 和 s2 是相同的，则返回 0；如果 s1小于s2 则返回值小于 0；如果 s1>s2 则返回值大于 0。
+5|	strchr(s1, ch);
+返回一个指针，指向字符串 s1 中字符 ch 的第一次出现的位置。
+6|	strstr(s1, s2)
+返回一个指针，指向字符串 s1 中字符串 s2 的第一次出现的位置。
+下面的实例使用了上述的一些函数：
