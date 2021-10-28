@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Chapter01">
+      <UniqueIdentifier>{2e653ea8-ea05-4fb0-b191-1a7a9bed62eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter02">
+      <UniqueIdentifier>{6e70b0db-0109-46c4-9c50-5ee12e2ec695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter03">
+      <UniqueIdentifier>{fb9b6ca7-251c-42d5-9080-16fdc78db51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter04">
+      <UniqueIdentifier>{390e6812-554c-45c3-990c-90018a03cd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter05">
+      <UniqueIdentifier>{5efe60f6-82f3-49f5-a864-bf207051bf08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter06">
+      <UniqueIdentifier>{dbfead38-55d4-4f45-9324-b46f2d46f7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter07">
+      <UniqueIdentifier>{22d6feeb-7d94-4327-9610-6b423c6e4cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter08">
+      <UniqueIdentifier>{5afe8fb7-a31a-46c1-aab9-3d8c71299c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter09">
+      <UniqueIdentifier>{c3728fcf-93e1-4472-b737-a37cca0ab53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter10">
+      <UniqueIdentifier>{62f5bccf-52ff-46c4-b4c0-edfd49c36401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter11">
+      <UniqueIdentifier>{9158e2b1-430d-45d4-aea6-5375b0b059e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter12">
+      <UniqueIdentifier>{4603e0f2-17b4-4e07-9e9d-82ceb637d674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter13">
+      <UniqueIdentifier>{318caf74-41be-45c7-b998-9e3589e9ebc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter14">
+      <UniqueIdentifier>{cdd89b19-94c1-4ba7-be33-ecfac570ccde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter15">
+      <UniqueIdentifier>{72c197c2-2a72-46a6-b68c-50fd6b3a5a30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11301.c">
+      <Filter>Chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="71201.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71202.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71203.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71204.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71205.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71206.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71207.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71208.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71209.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71210.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="71211.c">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="21207.c">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="21201.c">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="21202.c">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="21203.c">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="21204.c">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="21205.c">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="21206.c">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="21208.c">
+      <Filter>Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="31101.c">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="31102.c">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="31103.c">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="31104.c">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="31105.c">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="31106.c">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="31108.c">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="31107.c">
+      <Filter>Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="48001.c">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="48002.c">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="48003.c">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="48004.c">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="48005.c">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="48006.c">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="48007.c">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="48008.c">
+      <Filter>Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="51102.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="51101.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="51103.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="51104.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="51105.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="51106.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="51107.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="51108.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="51109.c">
+      <Filter>Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="61601.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61602.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61603.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61604.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61605.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61606.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61607.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61608.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61609.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61610.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61611.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61612.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61613.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61614.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61615.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61616.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61617.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="61618.c">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="81101.c">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="81102.c">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="81103.c">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="81104.c">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="81105.c">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="81106.c">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="81107.c">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="81109.c">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="91101.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91102.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91103.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91104.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91105.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91106.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91107.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91108.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91109.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91110.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="91111.c">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="101301.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101302.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101303.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101304.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101305.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101306.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101307.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101308.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101309.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101310.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101311.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101312.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101313.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="101314.c">
+      <Filter>Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="111301.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111302.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111303.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111304.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111305.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111306.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111307.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111308.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111309.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111310.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111311.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111312.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111313.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111314.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111315.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="111316.c">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="120901.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="120902.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="pe12-2a.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="pe12-3a.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="120903.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="120904.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="120905.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="120906.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="120907.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="diceroll.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="120908.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="120909.c">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="131101.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131102.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131103.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131104.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131105.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131106.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131107a.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131107b.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131108.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131109.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131110.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131111.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="131112.c">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="141801.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141802.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141803.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141804.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141805.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141806.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141807.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141808.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141809.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141810.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="141811.c">
+      <Filter>Chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="150901.c">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="150902.c">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="150903.c">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="150904.c">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="150905.c">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="150906.c">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="150907.c">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pe12-2a.h">
+      <Filter>Chapter12</Filter>
+    </ClInclude>
+    <ClInclude Include="pe12-3a.h">
+      <Filter>Chapter12</Filter>
+    </ClInclude>
+    <ClInclude Include="diceroll.h">
+      <Filter>Chapter12</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

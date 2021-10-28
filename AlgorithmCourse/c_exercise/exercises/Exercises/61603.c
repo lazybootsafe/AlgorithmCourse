@@ -1,0 +1,21 @@
+#if 0
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	for (int i = 0; i < 6; i++)
+	{
+		char ch = 'F';
+		for (int j = 0; j <= i; j++)
+		{
+			printf("%c", ch);
+			ch--;
+		}
+		printf("\n");
+	}
+
+	return 0;
+}
+
+#endif
