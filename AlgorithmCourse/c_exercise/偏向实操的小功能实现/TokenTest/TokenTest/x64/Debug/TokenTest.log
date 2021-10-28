@@ -1,0 +1,10 @@
+﻿  TokenTest.c
+C:\Users\admin\source\repos\TokenTest\TokenTest\TokenTest.c(6,30): warning C4081: expected 'newline'; found ';'
+C:\Users\admin\source\repos\TokenTest\TokenTest\TokenTest.c(7,32): warning C4081: expected 'newline'; found ';'
+C:\Users\admin\source\repos\TokenTest\TokenTest\TokenTest.c(71,46): warning C4013: 'CreateEnvironmentBlock' undefined; assuming extern returning int
+C:\Users\admin\source\repos\TokenTest\TokenTest\TokenTest.c(298,58): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+C:\Users\admin\source\repos\TokenTest\TokenTest\TokenTest.c(300,87): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+C:\Users\admin\source\repos\TokenTest\TokenTest\TokenTest.c(263,16): warning C4101: 'i': unreferenced local variable
+C:\Users\admin\source\repos\TokenTest\TokenTest\TokenTest.c(268,30): warning C4101: 'sid': unreferenced local variable
+C:\Users\admin\source\repos\TokenTest\TokenTest\TokenTest.c(102): warning C4716: 'stealToken': must return a value
+  TokenTest.vcxproj -> C:\Users\admin\source\repos\TokenTest\x64\Debug\TokenTest.exe
